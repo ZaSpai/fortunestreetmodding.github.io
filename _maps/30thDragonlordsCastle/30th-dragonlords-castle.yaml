@@ -14,7 +14,9 @@ frbFile1: 30th-dragonlords-castle
 background: bg007
 mapIcon: dragonlord
 music: 
-  download: https://drive.google.com/u/0/uc?export=download&confirm=BeFt&id=1IC_B7vPLTwKgBfU2vP89Rsiys_g2PhJ6
+  download: 
+    - https://nikkums.io/cswt/BGM/Dragonlord.music.zip
+    - https://drive.google.com/u/0/uc?export=download&confirm=BeFt&id=1IC_B7vPLTwKgBfU2vP89Rsiys_g2PhJ6
   map: BGM_MAP_DRAGONLORD.65
   stock: BGM_STOCK_30TH.60
   ventureCards: BGM_CHANCECARD_30TH.70
@@ -32,6 +34,8 @@ music:
   domination: ME_MONOPOLY_30TH.55
   bankruptcy:
 changelog:
+  - version: 2
+    removed: Venture card 85 to bring total to 64
   - version: 1
 tourMode:
   bankruptcyLimit: 1
@@ -124,7 +128,7 @@ ventureCards:
   - 1  #  82 Freebie! Take a Club!
   - 1  #  83 Dicey adventure! Roll 1/3/5 and warp to a random location. Roll 2/4/6 and everyone else warps.
   - 1  #  84 Moneymaking venture! The winning player must pay you 10% of their ready cash!
-  - 1  #  85 Moneymaking venture! Roll the die and get 85 times the number shown in gold coins from the bank!
+  - 0  #  85 Moneymaking venture! Roll the die and get 85 times the number shown in gold coins from the bank!
   - 1  #  86 Moneymaking venture! Take 100G from all other players!
   - 0  #  87 Venture on! Roll the special all-7s-and-8s die and move forward again.
   - 0  #  88 Misadventure! All other players swap places!

@@ -12,15 +12,17 @@ ruleSet: Standard
 theme: DragonQuest
 initialCash: 2000
 targetAmount: 20000
-baseSalary: 350
-salaryIncrement: 250
+baseSalary: 400
+salaryIncrement: 350
 maxDiceRoll: 9
 frbFile1: skullboard0
 frbFile2: skullboard1
-background: bg104
+background: bg008alt
 mapIcon: skull
 music:
-  download: https://drive.google.com/uc?export=download&id=1QTt0Asy7oh5tnPKBAjmPJnWKabjo7LHw
+  download: 
+    - https://nikkums.io/cswt/BGM/Skullboard.music.zip
+    - https://drive.google.com/uc?export=download&id=1QTt0Asy7oh5tnPKBAjmPJnWKabjo7LHw
   map: BGM_MAP_SKULLBOARD
   stock: KH_BGM_STOCK
   ventureCards: KH_BGM_CASINO_SLOT
@@ -34,6 +36,12 @@ tourMode:
   opponent3: Princessa
   clearRank: 2
 changelog:
+  - version: 4
+    changed:
+      - Changed background to the new bg008alt
+  - version: 3
+    added:
+      - 2 new venture cards to make 64 total
   - version: 2
     added:
       - Icon
@@ -147,14 +155,14 @@ ventureCards:
   - 0  # 102 Moneymaking venture! Roll the die and get 33 times the number shown in gold coins from all other players!
   - 0  # 103 Misadventure! The values of all your shops drop by 25%!
   - 0  # 104 Misadventure! You give everyone 80G each!
-  - 0  # 105 Moneymaking venture! Roll the die and get the number shown x your level x 40G from the bank!
+  - 1  # 105 Moneymaking venture! Roll the die and get the number shown x your level x 40G from the bank!
   - 0  # 106 Freebie! Roll the die and get half the number shown of Suit Yourself cards! (Decimals will be rounded down.)
   - 0  # 107 Revaluation venture! You can expand any one of your shops by 30%.
   - 0  # 108 Cashback venture! You can sell a shop back to the bank for four times its shop value.
   - 0  # 109 Revaluation venture! You can expand any one of your shops by 75%.
   - 0  # 110 Special bonus! You receive 77 times the number of shops you own in gold coins from the bank!
   - 0  # 111 Cashback venture! You can sell a shop back to the bank for 500G more than its shop value.
-  - 0  # 112 Special bonus! You receive 100 times the number of shops you own in gold coins!
+  - 1  # 112 Special bonus! You receive 100 times the number of shops you own in gold coins!
   - 0  # 113 Moneymaking venture! Roll the die and get the number shown x your level x 20G from the bank!
   - 0  # 114 Moneymaking venture! Take your level times 40G from all other players!
   - 0  # 115 Misadventure! All other players can only move forward 7 on their next turn.

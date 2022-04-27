@@ -14,7 +14,9 @@ frbFile1: AlltradesSP
 background: bg108
 mapIcon: AlltradesSP
 music:
-  download: https://drive.google.com/u/2/uc?export=download&confirm=X-GJ&id=19jP04Jn7EmMMJZnbdzmTj86lWtUPCXS9
+  download: 
+    - https://nikkums.io/cswt/BGM/Alltrades.music.zip
+    - https://drive.google.com/u/2/uc?export=download&confirm=X-GJ&id=19jP04Jn7EmMMJZnbdzmTj86lWtUPCXS9
   map: BGM_MAP_ALLTRADES_SPECIAL.60
   stock: BGM_STOCK_SPECIAL.60
   ventureCards: BGM_CHANCECARD_SPECIAL.50
@@ -39,6 +41,9 @@ tourMode:
   opponent3: Luigi
   clearRank: 2
 changelog:
+  - version: 2
+    changed:
+      - Fixed pathing error
   - version: 1
     added: 
       - Initial Release
